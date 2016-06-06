@@ -7,7 +7,7 @@ google_username = "votre_identifiant_google"
 google_password = "votre_mot_de_passe_google"
 
 # Changer la partie du path entre guillemets
-# pour chosir l'emplacement de stockage du csv
+# pour choisir l'emplacement de stockage du csv
 path = "D:\DATA\HackBiodiv" + os.sep
 
 # connect to Google
