@@ -1,0 +1,21 @@
+Si besoin télécharger pip : 
+pip est déjà installé si vous disposez de Python 2 >=2.7.9 ou Python 3 >=3.4 mais vous aurez besoin de le mettre à jour.
+
+Télécharger le script get-pip.py depuis https://pip.pypa.io/en/stable/installing/
+lien direct https://bootstrap.pypa.io/get-pip.py
+
+Copier le script get-pip.py dans le répertoire d'installation de python (C:\Python27 par exemple)
+
+Ensuite se rendre dans le répertoire d'installation de python et taper les commandes suivantes dans une fenêtre de commande :
+
+python get-pip.py
+python -m pip install pytrends
+
+Ensuite vous pouvez  modifier le script hackbiodiv_pytrends.py et renseigner les paramètres de votre compte google (lignes 6 et 7) et le chemin de destination du fichier csv à créer (ligne 11).
+
+Modifier ensuite les mots clés à rechercher (ligne 17, et le nom du fichier csv de sortie (ligne 23).
+
+Ligne 28 vous pouvez choisir un mot pour lequel récupérer les suggestions de google, ces suggestions désignées par des termes du style "/m/02fzjg" peuvent ensuite être utilisées comme mot clé multilingue. 
+
+Enfin exécuter le script à l'aide de la commande :
+python repertoire_du_script\hackbiodiv_pytrends.py
